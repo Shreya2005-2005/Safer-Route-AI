@@ -21,26 +21,6 @@ It uses accident blackspot clustering data to highlight danger zones and helps u
 - NumPy / Pandas (data handling)
 - Haversine Formula (distance calculation)
 
-⚙️ How It Works
-- Select Source & Destination from the sidebar.
-- The app automatically shows both routes:
-- 🔴 Fastest Route (red dashed line)
-- 🟢 Safest Route (green solid line)
-- Accident blackspots are displayed with danger zones.
-- A Safety Report is generated with:
-- Safety Score (0–100)
-- Danger Zones crossed
-- Events count
-- The app compares fastest vs safest route and gives an AI Recommendation.
-
-📂 Project Structure
-- app.py → Streamlit application
-- bangalore-cas-alerts.csv → Raw accident alerts dataset
-- blackspot_data.csv → Clustered blackspot zones
-- location_coords.pkl → Predefined location coordinates
-- ANACONDA final.pdf → Jupyter notebook with clustering, cleaning, and preprocessing steps
-- Diagrams/ → Consumer Flow, Data Flow, High-Level, Low-Level diagrams
-
 
 📊 Example Output
 - Fastest Route: 12.5 km, 30 min, Safety Score 50/100 (Moderate Risk)
